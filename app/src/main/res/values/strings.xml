@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Plans</string>
+    <string name="daily_plans">My Plans list _</string>
+    <string name="no_more_plans">No More Plans</string>
+    <string name="no_plan_to_show">No Plan Added yet</string>
+    <string name="write_here">Write here….</string>
+    <string name="new_plan">New Plan</string>
+    <string name="click_to_the_button_to_get_started">Click to the button to get started</string>
 </resources>

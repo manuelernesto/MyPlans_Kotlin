@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_marginBottom="20dp"
+                                             android:background="@drawable/bgcorner"
+                                             android:layout_height="100dp" android:id="@+id/linearLayout">
+
+
+    <TextView
+            android:textSize="22sp"
+            android:id="@+id/title_plan_tv"
+            android:textColor="@color/colorAccent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/averia_libre_light"
+            tools:text="Learn Kotlin"
+            android:layout_marginTop="1dp" app:layout_constraintVertical_chainStyle="packed"
+            app:layout_constraintEnd_toStartOf="@+id/date_plan_tv" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/desc_plan_tv" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp" android:layout_marginEnd="30dp" android:layout_marginRight="30dp"/>
+
+    <TextView
+            android:textSize="18sp"
+            android:id="@+id/desc_plan_tv"
+            android:textColor="@color/colorAccentLitle"
+            tools:text="Learn a new language"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/averia_libre_light"
+            app:layout_constraintTop_toBottomOf="@+id/title_plan_tv"
+            app:layout_constraintEnd_toStartOf="@+id/date_plan_tv" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="16dp" android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"/>
+
+
+    <TextView
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:background="@drawable/bgcornerbtn"
+            android:textSize="18sp"
+            android:id="@+id/date_plan_tv"
+            android:textColor="@color/colorAccent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/averia_libre_light"
+            tools:text="Tomorrow"
+            app:layout_constraintStart_toEndOf="@+id/desc_plan_tv" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/desc_plan_tv" app:layout_constraintTop_toTopOf="@+id/desc_plan_tv"
+            android:layout_marginEnd="16dp" android:layout_marginRight="16dp"
+    />
+
+
+</android.support.constraint.ConstraintLayout>
